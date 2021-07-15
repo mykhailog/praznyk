@@ -31,6 +31,10 @@
         .fc-h-event.weekly .fc-event-title {
             font-style: italic;
         }
+        .fc-h-event.ukraine_public_holidays .fc-event-title {
+            color: #D50000  !important;
+            font-weight: bold;
+        }
         .fc-h-event.feasts_of_the_lord .fc-event-title {
             color: #D50000  !important;;
         }
@@ -42,6 +46,25 @@
         }
         .fc-h-event.great_feasts .fc-event-title {
             font-weight: bold;
+        }
+        .fc-h-event.un .fc-event-title:before {
+            background-image:url( https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_United_Nations.svg/44px-Flag_of_the_United_Nations.svg.png);
+            background-size: 20px 15px;
+            display: inline-block;
+            width: 20px;
+            height: 15px;
+            content:"";
+            margin-right: 5px;
+        }
+
+        .fc-h-event.ukraine_holiday .fc-event-title:before ,.fc-h-event.ukraine_public_holidays .fc-event-title:before  {
+            background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/19px-Flag_of_Ukraine.svg.png);
+            background-size: 20px 15px;
+            display: inline-block;
+            width: 20px;
+            height: 15px;
+            content:"";
+            margin-right: 5px;
         }
         .fc-h-event.great_feasts .fc-event-title:before,  .fc-h-event.feasts_of_the_theotokos .fc-event-title:before, .fc-h-event.feasts_of_the_lord .fc-event-title:before, .fc-h-event.easter .fc-event-title:before {
                 background-image:url(https://upload.wikimedia.org/wikipedia/commons/a/a1/%D0%97%D0%BD%D0%B0%D0%BA%D0%B8_%D1%81%D0%B2%D1%8F%D1%82_%D0%A5%D1%80%D0%B5%D1%81%D1%82_%D0%B2_%D0%BA%D1%80%D1%83%D0%B7%D1%96.png);
